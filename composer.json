@@ -1,0 +1,49 @@
+{
+  "name": "rugaard/git-hooks-workflow",
+  "type": "git-hook",
+  "description": "Workflow related Git hooks.",
+  "keywords": [
+    "morten",
+    "rugaard",
+    "morten rugaard",
+    "composer",
+    "plugin",
+    "composer plugin",
+    "git",
+    "hooks",
+    "git hooks",
+    "workflow",
+    "workflow git hooks"
+  ],
+  "authors": [
+    {
+      "name": "Morten Rugaard",
+      "email": "morten@rugaard.me",
+      "homepage": "https://github.com/rugaard",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rugaard",
+  "support": {
+    "issues": "https://github.com/rugaard/git-hooks-workflow/issues",
+    "source": "https://github.com/rugaard/git-hooks-workflow"
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-json": "*",
+    "rugaard/git-hooks": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rugaard\\GitHooks\\Workflow\\": "src"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
